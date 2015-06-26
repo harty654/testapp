@@ -1,0 +1,247 @@
+/* Empty. Add your own CSS if you like */
+
+@font-face {
+    font-family: 'montserratalternatesboldbold';
+    src: url('../lib/ionic/fonts/montserratalternatesbold-webfont.eot');
+    src: url('../lib/ionic/fonts/montserratalternatesbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../lib/ionic/fonts/../lib/ionic/fonts/montserratalternatesbold-webfont.woff2') format('woff2'),
+         url('../lib/ionic/fonts/montserratalternatesbold-webfont.woff') format('woff'),
+         url('../lib/ionic/fonts/montserratalternatesbold-webfont.ttf') format('truetype'),
+         url('../lib/ionic/fonts/montserratalternatesbold-webfont.svg#montserratalternatesboldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.bar.app-top-bar {
+  background-color: #BD2A33;
+}
+
+.multi-level-push-menu .mp-menu .menu-heading.has-previous .menu-back {
+  background: #BD2A33;
+}
+
+.main-menu ion-content {
+  background-color: #1B1B1B;
+}
+
+.main-menu ion-item.item {
+  background-color: #1B1B1B;
+}
+
+.main-menu ion-item.item .item-content, .main-menu .heading-item .heading-bg {
+  background-color: #1B1B1B;
+}
+
+.main-menu ion-item.item .menu-text {
+  color: #f8f8f8;
+}
+
+span.logomain {
+  margin: 0;
+  line-height: 38px;
+  font-family: 'montserratalternatesboldbold', sans-serif !important;
+  text-transform: lowercase;
+  letter-spacing: -2px !important;
+  font-size: 30px !important;
+  font-weight: bold;
+  color: #fff;
+}
+
+span.logomain span.logoe {
+  font-size: 38px !important;
+}
+
+img.featuredwindow {
+  width: 100% !important;
+}
+
+.home-view .post-card, .category-view .post-card {
+  margin: 8px 0px;
+  position: relative;
+  z-index: 2;
+  box-shadow: none;
+  background: #FFFFFF;
+  border-radius: 2px;
+}
+
+h2.detes{
+  line-height: 14px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+span.byauthor {
+}
+
+.home-view h1, .category-view h1 {
+  line-height: 24px;
+}
+
+.posttitlea {
+  text-decoration: none !important;
+}
+
+.home-view .author, .category-view .author {
+  font-weight: 600;
+  color: #000;
+}
+
+.card-backgroundimage {
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+.home-view .card-header-showfade {
+  background-color: rgba(0, 0, 0, 0.35);
+    padding: 40px 20px;
+}
+
+.card-header-showfade h1 {
+  color: #ffffff !important;
+  font-size: 26px;
+  line-height: 26px;
+}
+
+.card-header-showfade h2, .card-header-showfade span.timeposted, .card-header-showfade span.byauthor, .card-header-showfade .author, .card-header-showfade .card-button.bookmark, .card-header-showfade .card-button.bookmark i {
+  color: #ccc !important;
+}
+
+.item-input-wrapper {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.multi-level-push-menu .mp-menu .category-item-container {
+  height: auto;
+}
+
+.multi-level-push-menu .mp-menu .category-details {
+  height: auto;
+}
+
+.multi-level-push-menu .mp-menu .category-details .category-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+.multi-level-push-menu .mp-menu .category-details .category-title:after {
+  display:  none !important;
+}
+
+.multi-level-push-menu .mp-menu .category-item-container:before {
+  height: auto;
+  line-height: 60px;
+  margin-right: 20px;
+}
+
+.multi-level-push-menu .mp-menu .menu-heading .menu-title {
+  height: 70px;
+  line-height: 70px;
+}
+
+.multi-level-push-menu .mp-menu .menu-heading .title-text {
+  height: auto;
+  line-height: 70px;
+}
+
+.multi-level-push-menu .mp-menu .menu-heading.has-previous .menu-title {
+  height: 70px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.multi-level-push-menu .mp-menu .menu-heading.has-previous .title-text {
+  height: auto;
+  line-height: 20px;
+  font-size: 17px;
+  display: block;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.multi-level-push-menu .mp-menu .menu-heading.has-previous .title-aux {
+  font-size: 12px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.multi-level-push-menu .mp-menu .menu-heading.has-previous .menu-back {
+  font-size: 14px;
+  padding-left: 32px;
+}
+
+.bookmarks-view .empty-results .icon {
+  font-size: 120px;
+  color: #ccc;
+}
+
+.bookmarks-view .empty-results .no-bookmarks {
+  color: #cccccc;
+}
+
+.post-view .card-content h2, .post-view .card-content h3, .post-view .card-content h4, .post-view .card-content h5, .post-view .card-content h6 {
+  padding: 0px 16px;
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  margin-top:  10px;
+}
+
+.post-view a, .post-view .author {
+  color: #0BA6C2;
+}
+
+.post-view .comments .item .message-content p {
+  padding-bottom: 10px;
+}
+
+aside.mashsb-container { display:  none !Important; }
+
+.post-view .post-actions {
+  margin-top: 10px;
+  padding: 25px;
+}
+
+.comments .list a.item img, .comments .list a.item h2.ng-binding {
+  display: none !important;
+}
+
+.comments .list a.item { padding: 25px !important; background-color: #f7f7f7; }
+
+.comments .list a.item p, .comments .list a.item h1, .comments .list a.item h2, .comments .list a.item h3, .comments .list a.item h4, .comments .list a.item h5, .comments .list a.item h6 {
+  color: #1b1b1b;
+  font-style: italic;
+}
+
+.post-view .card-button.primary.sharebtn {
+  background-color: #2ecc71;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-right:  5px;
+}
+
+.post-view .card-button.primary.commentshead { color: #000; }
+
+img.toppostimg {
+  width: 100% !important;
+}
+
+.post-view h1 {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.home-view .card-button.bookmark, .category-view .card-button.bookmark {
+  font-size: 20px;
+  margin-top: 0px;
+}

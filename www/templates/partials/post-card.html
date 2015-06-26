@@ -1,0 +1,8 @@
+<div class="card-backgroundimage" ng-style="{'background':'#fff url({{post.attachments[0].images.full.url}})'}">
+<div ng-class="{ 'card-header-showfade': post.attachments[0].images.full.url }">
+  <div class="card-header">
+    <a class="posttitlea" ui-sref="app.post({postId :post.id})"><h1 ng-bind-html="post.title | rawHtml"></h1></a>
+    <h2 class="detes"><span am-time-ago="post.date" class="timeposted"></span> <span class="byauthor">by</span> <span class="author" ng-bind-html="post.author.name | rawHtml"></span> <a class="card-button secondary bookmark" ng-click="bookmarkPost(post)"><i class="icon ion-pin"></i></a></h2>
+  </div>
+</div>
+</div>
