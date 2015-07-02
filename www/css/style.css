@@ -38,7 +38,7 @@
 }
 
 span.logomain {
-  margin: 0;
+  margin: 0 auto;
   line-height: 38px;
   font-family: 'montserratalternatesboldbold', sans-serif !important;
   text-transform: lowercase;
@@ -46,6 +46,7 @@ span.logomain {
   font-size: 30px !important;
   font-weight: bold;
   color: #fff;
+  text-align: center;
 }
 
 span.logomain span.logoe {
@@ -195,6 +196,11 @@ span.byauthor {
   margin-top:  10px;
 }
 
+.post-view .card-content table {
+   padding: 0px 16px;
+   display: block;
+}
+
 .post-view a, .post-view .author {
   color: #0BA6C2;
 }
@@ -244,4 +250,15 @@ img.toppostimg {
 .home-view .card-button.bookmark, .category-view .card-button.bookmark {
   font-size: 20px;
   margin-top: 0px;
+}
+
+.bookmarks-view .bookmark-item {
+  padding: 16px;
+  border-bottom: 0px;
+  margin: 8px 0px;
+  position: relative;
+  z-index: 2;
+  box-shadow: none;
+  background: #FFFFFF;
+  border-radius: 2px;
 }

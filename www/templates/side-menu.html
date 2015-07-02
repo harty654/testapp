@@ -18,15 +18,6 @@
   <ion-side-menu class="main-menu" side="left" width="230">
     <ion-content>
       <ion-list>
-        <ion-item class="heading-item item" nav-clear menu-close ui-sref="app.settings">
-          <img ng-src="{{user.avatar}}">
-          <div class="heading-bg">
-          </div>
-          <div class="heading-action item-icon-left">
-            <i class="icon ion-ios-gear-outline"></i>
-            <h2 class="greeting">Settings</h2>
-          </div>
-        </ion-item>
         <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.home">
           <!-- <i class="icon ion-home"></i> -->
           <i class="icon ion-ios-paper-outline"></i>
@@ -34,7 +25,11 @@
         </ion-item>
         <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.bookmarks">
           <i class="icon ion-pin"></i>
-          <h2 class="menu-text">Pinned</h2>
+          <h2 class="menu-text">Pinned Posts</h2>
+        </ion-item>
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.settings">
+          <i class="icon ion-ios-gear-outline"></i>
+          <h2 class="menu-text">Settings</h2>
         </ion-item>
       </ion-list>
     </ion-content>

@@ -528,7 +528,6 @@ angular.module('your_app_name.services', [])
         cookie = (window.localStorage.ionWordpress_user) ? JSON.parse(window.localStorage.ionWordpress_user).cookie : null;
 
     return {
-      avatar : JSON.parse(window.localStorage.ionWordpress_user_avatar || null),
       data: data,
       cookie: cookie
     };

@@ -157,10 +157,9 @@ angular.module('your_app_name.controllers', [])
       function (isAvailable) {
         // alert('Service is not available') unless isAvailable;
         cordova.plugins.email.open({
-          to:      'john@doe.com',
-          cc:      'jane@doe.com',
+          to:      'hello@eightlane.org',
           subject: 'Feedback',
-          body:    'This app is awesome'
+          body:    'Great app Eightlane!'
         });
       }
     );
@@ -171,10 +170,9 @@ angular.module('your_app_name.controllers', [])
       function (isAvailable) {
         // alert('Service is not available') unless isAvailable;
         cordova.plugins.email.open({
-          to:      'john@doe.com',
-          cc:      'jane@doe.com',
-          subject: 'Contact',
-          body:    'Contact from ionWordpress app'
+          to:      'hello@eightlane.org',
+          subject: 'Contact Us',
+          body:    'Hello Eightlane, ...'
         });
       }
     );
